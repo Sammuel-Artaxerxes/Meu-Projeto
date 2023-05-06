@@ -1,0 +1,80 @@
+header {
+	font-family: 'Montserrat', sans-serif;
+	background: #F0F8FF;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 100%;
+	box-sizing: border-box;
+
+}
+
+.logo h2 {
+	float: left;
+	padding: 15px 20px;
+	margin: 10px;
+	border-right: 3px solid #FFF;
+	border-left: 3px solid #FFF;
+	border-radius: 50px;
+	color: white;
+}
+
+.logo h2 a {
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+	vertical-align: center;
+}
+.logo ul {
+	margin: 0;
+	padding: 0 2em;
+	list-style: none;
+
+}
+.enviar{
+	width: 10%;
+	padding: 5px 0;
+	background: #FFD700;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 9px;
+	transition: 1s all;
+	cursor: pointer;
+}
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.0);
+
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav{
+	background: #008080;
+	margin: 0;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav li a{
+	display: inline-block;
+	color: #FEFEFE;
+	text-decoration: none;
+	padding: 20px;
+
+}
+
+nav li a:hover{
+	background: #00C8C8;
+}
